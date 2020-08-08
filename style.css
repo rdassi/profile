@@ -3,36 +3,45 @@
   src: url(Tree.ttf);
 }
 
-
-body{ background-color: black;
-	background: url('images/Tree.png') no-repeat center center fixed;
+body{ 
+	background: url('images/Brown_bg.png') no-repeat center center fixed;
 	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-	
+  	background-attachment: fixed;
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 .name{
 	font-family: Tree;
-	font-size: 110px;
-	text-align: center;
-	color: white;
+	font-size: 9vw;
+	text-align: left;
+	padding: 3% 3% 3% 3%;
+	color:#00412a;
+	margin: 2vw 1vw 2vw 1vw;
 }
 
 .octocat{
 	position: absolute;
-	top: 45%;
-	left: 54%;
-	height: 100px;
-	width: 100px;
+
+	top: 55%;
+	bottom: 45%;
+	right: 40%;
+	/*left: 50%;*/
+	height: 7vw;
+	width: 7vw;
 }
 
 .linkedin{
 	position: absolute;
-	top: 42%;
-	left: 23%;
-	height: 100px;
-	width: 100px;
+
+	top: 55%;
+	bottom: 45%;
+	right: 25%;
+	/*left: 75%;*/
+	height: 7vw;
+	width: 7vw;
 }
 
 .blog{
@@ -40,9 +49,51 @@ body{ background-color: black;
 	
 	top: 55%;
 	right: 10%;
-	margin-left: 20px;
-	margin-right: 20px;
+	/*left: 80%;*/
+	bottom: 45%;
+	height: 7vw;
+	width: 7vw;
+}
 
-	height: 100px;
-	width: 100px;
+@media only screen and (max-width: 850px) {
+
+	.name{
+		font-family: Tree, Georgia, 'Times New Roman', Times, serif;
+		font-size: 16vw;
+		text-align: left;
+		padding: 3% 3% 3% 3%;
+		color:#00412a;
+		margin: 40vw 1vw 2vw 1vw;
+	}
+	
+	.octocat{
+		position: absolute;
+		top: 55%;
+		bottom: 45%;
+		right: 60%;
+		/*left: 50%;*/
+		height: 14vw;
+		width: 14vw;
+	}
+	
+	.linkedin{
+		position: absolute;	
+		top: 55%;
+		bottom: 45%;
+		right: 40%;
+		/*left: 75%;*/
+		height: 14vw;
+		width: 14vw;
+	}
+	
+	.blog{
+		position: absolute;
+		top: 55%;
+		right: 20%;
+		/*left: 80%;*/
+		bottom: 45%;	
+		height: 14vw;
+		width: 14vw;
+	}
+
 }
