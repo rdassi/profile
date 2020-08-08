@@ -14,7 +14,7 @@ body{ background-color: black;
 
 .name{
 	font-family: Tree;
-	font-size: 130px;
+	font-size: 110px;
 	text-align: center;
 	color: white;
 }
@@ -23,16 +23,16 @@ body{ background-color: black;
 	position: absolute;
 	top: 45%;
 	left: 54%;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 }
 
 .linkedin{
 	position: absolute;
 	top: 42%;
 	left: 23%;
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 }
 
 .blog{
@@ -43,6 +43,6 @@ body{ background-color: black;
 	margin-left: 20px;
 	margin-right: 20px;
 
-	height: 147px;
-	width: 147px;
+	height: 100px;
+	width: 100px;
 }
